@@ -20,8 +20,7 @@ if numUsuario>aleatorio:
 if numUsuario<aleatorio:
      print("Más grande")
 while numUsuario!=aleatorio:
-     numUsuario=int(input("Intentalo de nuevo:"))
-if numUsuario>aleatorio:
+ if numUsuario>aleatorio:
         print("mas pequeño")
 if numUsuario<aleatorio:
      print("Más grande")
