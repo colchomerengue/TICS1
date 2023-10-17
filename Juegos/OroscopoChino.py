@@ -1,5 +1,5 @@
 #Manera larga
-print("Voy a calcular tu orroscopo chino")
+print("Voy a calcular tu horoscopo chino")
 ano=int(input("En que año naciste?"))
 zodiaco=ano%12
 if zodiaco==0:
@@ -29,7 +29,7 @@ elif zodiaco==11:
 else:
     print("Error")   
 
-    #MAnera facil
+    #MAnera corta
 ano=int(input("En que año naciste"))
 signo=["Mono", "gallo", "perro", "cerdo", "rata", "buey", "tigre", "conejo", "dragón", "serpiente", "caballo", "cabra"]
 zodiaco=ano%12
