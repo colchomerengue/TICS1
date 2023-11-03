@@ -5,4 +5,4 @@ u="U"
 subcadena2="B"+n*u+"H"
 print(subcadena2)
 for i in range(n):
-    
+    print()
