@@ -9,4 +9,3 @@ if s==0:
     print("ERROR, porque el resto es 0")
 else:
      print("Su resto es ",s)
-     
