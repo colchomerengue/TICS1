@@ -1,5 +1,6 @@
 import datetime 
 
+
 #ejemplo de fecha completa
 fecha=datetime.date.today()
 print(fecha)
@@ -17,3 +18,7 @@ date_time_str= "08:20"
 date_time_object=datetime.datetime.strptime(date_time_str, "%H:%M")
 print(date_time_str)
 print(date_time_object)
+mihora=datetime.datetime.strptime(mihora, "%H:%M").time()
+hora_esp=mihora
+hora_esp=hora_esp.replace(60-(minute=28))
+
