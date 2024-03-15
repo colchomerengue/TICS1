@@ -20,8 +20,3 @@ if codigo3.title() in n3:
     print(n3.get(codigo3))
 else:
     print
-elif codigo4.title() in n4:
-    print(n4.get(codigo4))
-else:
-    print("NO ES DE LA NEGRE")
-    
